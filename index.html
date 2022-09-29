@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>P05 Jquery-Delete</title>
+    <style>
+        h1{
+            background-image: linear-gradient(to right,yellow,black);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h4{
+            background-image: linear-gradient(to right,black,yellow);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        th:hover{
+            color: black;
+            background: yellow;
+            cursor: pointer;
+            transition: 0.3s;
+            opacity: 75%;
+        }
+        tr:hover{
+            color: black;
+            background: yellow;
+            cursor: pointer;
+            transition: 3.0s;
+            opacity: 75%;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>P03 Jquery-Delete</h1>
+    </center>
+    <center>
+        <h4>The Top 10 of My Best Friends</h4>
+        <table class="table1">
+                <th>No</th>
+                <th>Nama Lengkap</th>
+                <th>Alamat</th>
+                <th>Aksi</th>
+            </thead>
+            <tr id="up_1" class="up">
+                <td>1</td>
+                <td class="node" id="mhs_1">Ayu Ningrat</td>
+                <td class="node" id="alamat_1">Ciamis</td>
+                <td class="node top1" id="hapus_1">Hapus</td>
+            </tr>
+            <tr id="up_2" class="up">
+                <td>2</td>
+                <td class="node" id="mhs_2">Resda Dayanti</td>
+                <td class="node" id="alamat_2">Garut</td>
+                <td class="node top1" id="hapus_2">Hapus</td>
+            </tr>
+            <tr id="up_3" class="up">
+                <td>3</td>
+                <td class="node" id="mhs_3">Iip Imron Daipah</td>
+                <td class="node" id="alamat_3">Pamarican</td>
+                <td class="node top1" id="hapus_3">Hapus</td>
+            </tr>
+            <tr id="up_4" class="up">
+                <td>4</td>
+                <td class="node" id="mhs_4">Novi Amaliah</td>
+                <td class="node" id="alamat_4">Tegal</td>
+                <td class="node top1" id="hapus_4">Hapus</td>
+            </tr>
+            <tr id="up_5" class="up">
+                <td>5</td>
+                <td class="node" id="mhs_5">M. Hilmy Naufan</td>
+                <td class="node" id="alamat_5">Cilimus</td>
+                <td class="node top1" id="hapus_5">Hapus</td>
+                <tr id="up_6" class="up">
+                    <td>6</td>
+                    <td class="node" id="mhs_6">Zahra Jannah</td>
+                    <td class="node" id="alamat_6">Kuningan</td>
+                    <td class="node top1" id="hapus_6">Hapus</td>
+                </tr>
+                <tr id="up_7" class="up">
+                    <td>7</td>
+                    <td class="node" id="mhs_7">Ati Sumiati</td>
+                    <td class="node" id="alamat_7">Ciamis</td>
+                    <td class="node top1" id="hapus_7">Hapus</td>
+                </tr>
+                <tr id="up_8" class="up">
+                    <td>8</td>
+                    <td class="node" id="mhs_8">Akmal Fauzan</td>
+                    <td class="node" id="alamat_8">Pangandaran</td>
+                    <td class="node top1" id="hapus_8">Hapus</td>
+                </tr>
+                <tr id="up_9" class="up">
+                    <td>9</td>
+                    <td class="node" id="mhs_9">Siti Wastopa</td>
+                    <td class="node" id="alamat_9">Garut</td>
+                    <td class="node top1" id="hapus_9">Hapus</td>
+                </tr>
+                <tr id="up_10" class="up">
+                    <td>10</td>
+                    <td class="node" id="mhs_10">Rendi Ramdani</td>
+                    <td class="node" id="alamat_10">Ciamis</td>
+                    <td class="node top1" id="hapus_10">Hapus</td>
+            
+        </table>
+    </center>
+
+</head>
+<body>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
